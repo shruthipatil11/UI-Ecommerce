@@ -93,8 +93,16 @@
 
 .page--center h2 {
   text-transform: uppercase;
-  color: #3e4152;
+  color: var(--LIGHTER-GREY);
   letter-spacing: 0.15em;
   font-size: 1.5rem;
   font-weight: 500;
+}
+
+.header nav ul li button a{
+color: var(--BLACK);
+}
+
+#sign-up-btn #sign-in-btn {
+  margin-right:10px;
 }

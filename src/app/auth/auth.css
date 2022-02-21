@@ -22,18 +22,6 @@
   margin: auto;
 }
 
-.margin-left-auto {
-  margin-left: auto;
-}
-
-.d-flex-align-center {
-  display: flex;
-  align-items: center;
-}
-
-.display-none {
-  display: none;
-}
 
 .Specificity.d-flex-col {
   row-gap: 0.8rem;
