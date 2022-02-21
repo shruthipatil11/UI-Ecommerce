@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://ui-ingredients-lib.netlify.app/src/app/docs/docs.css">
+    <link rel="stylesheet" href="./auth.css" />
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/2eb14ab3c6.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- navigation starts -->
+    <div class="authentication-page">
+        <header class="header">
+            <nav>
+                <ul class="navbar">
+                    <li>
+                        <img src="../../assets/images/ui-logo.jpg" alt="project icon" />
+                    </li>
+                    <li class="search-box">
+                        <div>
+                            <input type="text" name="search" placeholder="search" /><i class="fas fa-search"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <figure class="badge badge__count">
+                            <i class="far fa-heart fa-2x"></i>
+                            <span class="d-flex-center">5</span>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="badge badge__count">
+                            <i class="fas fa-shopping-cart fa-2x"></i>
+                            <span class="d-flex-center">11</span>
+                        </figure>
+                    </li>
+                    <li id="sign-up-btn">
+                        <button class="btn btn--primary">Sign Up</button>
+                    </li>
+                    <li id="sign-in-btn" class="display-none">
+                        <button class="btn btn--primary">Login</button>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- navigation ends -->
+        <!-- Login starts -->
+        <main>
+            <!-- Sign up form -->
+            <div class="card card--shadow authentication" id="sign-in">
+                <div class="card__body">
+                    <h3>Login</h3>
+                    <form action="" class="d-flex-col text--left">
+                        <div>
+                            <label for="email">Email address</label>
+                            <div class="input-field">
+                                <input type="text" name="email" placeholder="shruti@gmail.com" />
+                            </div>
+                        </div>
+                        <div>
+                            <label for="password">Password</label>
+                            <div class="input-field">
+                                <input type="text" name="password" placeholder="*********" />
+                            </div>
+                        </div>
+                        <div class="d-flex-align-center">
+                            <input type="checkbox" name="remember-me" />
+                            <label for="remember-me">Remember me</label>
+                            <a href="#" role="button" class="margin-left-auto link">Forgot your password?</a>
+                        </div>
+                        <button class="btn btn--primary">Login</button>
+                        <a href="#" role="button" class="text--center link">Create New Account ></a>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Sign up form  -->
+            <div class="card card--shadow authentication display-none" id="sign-up">
+                <div class="card__body">
+                    <h3>Sign up</h3>
+                    <form action="" class="d-flex-col text--left">
+                        <div>
+                            <label for="email">Email address</label>
+                            <div class="input-field">
+                                <input type="text" name="email" placeholder="shruti@gmail.com" />
+                            </div>
+                        </div>
+                        <div>
+                            <label for="password">Password</label>
+                            <div class="input-field">
+                                <input type="text" name="password" placeholder="*********" />
+                            </div>
+                        </div>
+                        <div class="d-flex-align-center">
+                            <input type="checkbox" name="remember-me" />
+                            <label for="remember-me">I accept all the terms and conditions</label>
+                        </div>
+                        <button class="btn btn--primary">Sign up</button>
+                        <a href="" class="text--center link">Already have an Account ></a>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <!-- Login ends -->
+    </div>
+    <script src="./auth.js"></script>
+</body>
+
+</html>
