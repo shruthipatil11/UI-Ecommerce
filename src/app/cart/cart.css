@@ -1,3 +1,6 @@
+
+@import "../../assets/css/styles.css";
+
 .cart-page {
   display: grid;
   grid-template-areas:
