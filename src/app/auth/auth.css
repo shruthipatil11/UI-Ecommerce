@@ -1,0 +1,90 @@
+.authentication-page {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "content content";
+  grid-template-columns: auto;
+  grid-template-rows: 7rem 1fr;
+  min-height: 100vh;
+  color: var(--LIGHT-BLACK);
+}
+
+.authentication-page main {
+  grid-area: content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1rem;
+  width: 60vw;
+  margin: auto;
+}
+
+.margin-left-auto {
+  margin-left: auto;
+}
+
+.d-flex-align-center {
+  display: flex;
+  align-items: center;
+}
+
+.display-none {
+  display: none;
+}
+
+.Specificity.d-flex-col {
+  row-gap: 0.8rem;
+}
+
+.navbar {
+  width: 100vw;
+}
+
+.authentication .card__text {
+  min-width: 29rem;
+}
+
+.authentication .card__body {
+  text-align: center;
+}
+
+.authentication .input-field input {
+  width: 100%;
+}
+
+.authentication .btn--primary {
+  width: inherit;
+}
+
+.authentication {
+  padding: 3.5rem;
+  min-width: 30rem;
+}
+
+.authentication input[type="checkbox"] {
+  padding: 0.3rem;
+  margin-right: 0.3rem;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--GREEN-DARK);
+}
+
+.authentication h3 {
+  font-weight: 600;
+}
+
+#sign-up-btn,
+#sign-in-btn {
+  margin-right: 2rem;
+}
+
+.search-box div {
+  margin-left: 13.5rem;
+}
+
+.search-box div input {
+  min-width: 20rem;
+}
