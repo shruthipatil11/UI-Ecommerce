@@ -1,0 +1,55 @@
+
+.products {
+    display: grid;
+    grid-template-columns: 16rem 1fr;
+    grid-template-rows: 4rem calc(100vh - 4rem);
+    grid-template-areas:
+        "header header"
+        "aside main";
+    min-height: 100vh;
+}
+
+aside {
+    grid-area: aside;
+}
+
+.products main {
+    grid-area: main;
+    margin-bottom: 1rem;
+    padding: 0rem 1rem 1rem 1rem;
+    overflow-y: scroll;
+}
+
+.products .navbar {
+    width: 100vw;
+  }
+
+
+header nav {
+    width: 100%;
+}
+
+.card--vertical {
+    max-width: 17rem;
+}
+
+.card--horizontal {
+    max-width: 35rem;
+}
+
+.filters--spacing{
+display: flex;
+    justify-content: space-between;
+}
+
+.filters__range {
+    width: 100%;
+}
+
+.filters h3 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.filters input {
+    margin-right: 0.5rem;
+}
