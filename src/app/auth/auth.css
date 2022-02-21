@@ -1,5 +1,3 @@
-/* utilities start */
-
 .authentication-page {
   display: grid;
   grid-template-areas:
@@ -12,14 +10,14 @@
 }
 
 .authentication-page main {
-grid-area: content;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-row-gap: 1rem;
-width: 60vw;
-margin: auto;
+  grid-area: content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1rem;
+  width: 60vw;
+  margin: auto;
 }
 
 .margin-left-auto {
@@ -34,8 +32,6 @@ margin: auto;
 .display-none {
   display: none;
 }
-
-/* utilities end */
 
 .Specificity.d-flex-col {
   row-gap: 0.8rem;
@@ -73,9 +69,8 @@ margin: auto;
 
 .link {
   text-decoration: none;
-  color:var(--GREEN-DARK);
+  color: var(--GREEN-DARK);
 }
-
 
 .authentication h3 {
   font-weight: 600;
