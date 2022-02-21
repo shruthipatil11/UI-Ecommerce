@@ -5,12 +5,172 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://ui-ingredients-lib.netlify.app/src/app/docs/docs.css">
+    <link rel="stylesheet" href="./src/assets/css/styles.css" />
     <title>Document</title>
 </head>
 
 <body>
-    <a href="./src/app/wishlist/wishlist.html">see products</a>
+    <div class="page homepage">
+        <!-- header starts -->
+        <header class="header">
+            <nav>
+                <ul class="navbar">
+                    <li>
+                        <a href="./src/app/product-listing/product-listing.html"><img
+                                src="./src/assets/images/ui-logo.jpg" alt="project icon" /></a>
+                        <p>Oasis Mart</p>
+                    </li>
+                    <li class="search-box">
+                        <div>
+                            <input type="text" name="search" placeholder="search" /><i class="fas fa-search"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="./src/app/wishlist/wishlist.html">
+                            <figure class="badge badge__count">
+                                <i class="far fa-heart fa-2x"></i>
+                                <span class="d-flex-center">5</span>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./src/app/cart/cart.html">
+                            <figure class="badge badge__count">
+                                <i class="fas fa-shopping-cart fa-2x"></i>
+                                <span class="d-flex-center">11</span>
+                            </figure>
+                        </a>
+                    </li>
+                    <li id="sign-up-btn">
+                        <button class="btn btn--primary"><a href="./src/app/auth/auth.html">Sign Up</a></button>
+                    </li>
+                    <li id="sign-in-btn" class="display-none">
+                        <button class="btn btn--primary"><a href="./src/app/auth/auth.html">Login</a></button>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- header ends -->
+        <!-- main content starts -->
+        <div class="page--center">
+            <div class="d-flex-wrap categories">
+                <!-- Snippet for image -->
+                <figure class="image-container badge">
+                    <img class="image--responsive" src="./src/assets/images/western-wear.jpg" alt="western wear" />
+                    <div><span>Western wear</span></div>
+                </figure>
 
+                <!-- Snippet for image -->
+                <figure class="image-container badge">
+                    <img class="image--responsive" src="./src/assets/images/foot wear.jpg" alt="foot wear" />
+                    <span>Indian wear</span>
+                </figure>
+
+                <!-- Snippet for image -->
+                <figure class=" image-container badge">
+                    <img class="image--responsive" src="./src/assets/images/watch.jpg" alt="watch" />
+                    <span>Foot wear</span>
+                </figure>
+
+                <!-- Snippet for image -->
+                <figure class="image-container badge">
+                    <img class="image--responsive" src="./src/assets/images/bags.jpg" alt="bags" />
+                    <span>Sports wear</span>
+                </figure>
+            </div>
+
+            <h2>TRENDING NOW</h2>
+            <div class="d-flex-wrap trending">
+                <!-- Snippet for vertical card -->
+                <div class="card card__badge card--vertical">
+                    <figure class="card__image badge">
+                        <img class="image--responsive" src="./src/assets/images/tshirt.jpg" alt="product image" />
+                        <span>New</span>
+                    </figure>
+                    <div class="card__body">
+                        <h4 class="font-weight-600">Wireles Headphones</h4>
+                        <p class="font-small">Tangles wires? Not in your vocabulary</p>
+                        <p class="font-small">+ EXPLORE</p>
+                    </div>
+                </div>
+
+                <!-- Snippet for vertical card -->
+                <div class="card card__badge card--vertical">
+                    <figure class="card__image badge">
+                        <img class="image--responsive" src="./src/assets/images/tshirt.jpg" alt="product image" />
+                        <span>New</span>
+                    </figure>
+                    <div class="card__body">
+                        <h4 class="font-weight-600">Wireles Headphones</h4>
+                        <p class="font-small">Tangles wires? Not in your vocabulary</p>
+                        <p class="font-small">+ EXPLORE</p>
+                    </div>
+                </div>
+
+                <!-- Snippet for vertical card -->
+                <div class="card card__badge card--vertical">
+                    <figure class="card__image badge">
+                        <img class="image--responsive" src="./src/assets/images/tshirt.jpg" alt="product image" />
+                        <span>New</span>
+                    </figure>
+                    <div class="card__body">
+                        <h4 class="font-weight-600">Wireles Headphones</h4>
+                        <p class="font-small">Tangles wires? In your vocabulary</p>
+                        <p class="font-small">+ EXPLORE</p>
+                    </div>
+                </div>
+
+                <!-- Snippet for vertical card -->
+                <div class="card card__badge card--vertical">
+                    <figure class="card__image badge">
+                        <img class="image--responsive" src="./src/assets/images/tshirt.jpg" alt="product image" />
+                        <span>New</span>
+                    </figure>
+                    <div class="card__body">
+                        <h4 class="font-weight-600">Wireles Headphones</h4>
+                        <p class="font-small">Tangles wires? Not in your vocabulary</p>
+                        <p class="font-small">+ EXPLORE</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <h2>Collections</h2>
+            <div class="d-flex-wrap collections">
+                <!-- Snippet for  Horizontal card-->
+                <div class="card card--horizontal collection">
+
+                    <figure class="card__image ">
+                        <img class="image--responsive" src="./src/assets/images/tshirt.jpg" alt="product image" />
+                    </figure>
+                    <div class="card__body">
+                        <p>New Arrivals</p>
+                        <div>
+                            <p class="h3 font-weight-600">Summer Collection</p>
+                            <p class="font-small">Checkout out best Summer Collection to stay cool and style out!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Snippet for  Horizontal card-->
+                <div class="card card--horizontal collection">
+
+                    <figure class="card__image ">
+                        <img class="image--responsive" src="./src/assets/images/tshirt.jpg" alt="product image" />
+                    </figure>
+                    <div class="card__body">
+                        <p>New Arrivals</p>
+                        <div>
+                            <p class="h3 font-weight-600">Summer Collection</p>
+                            <p class="font-small">Checkout out best Summer Collection to stay cool and style out!</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Snippet for  Horizontal card-->
+            </div>
+
+        </div>
 </body>
 
 </html>
