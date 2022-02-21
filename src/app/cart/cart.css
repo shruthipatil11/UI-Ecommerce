@@ -64,6 +64,7 @@ hr {
 
 .card--horizontal .card__quantity input {
   width: 2rem;
+  padding: 2.5px;
 }
 
 .card--horizontal .card__body .price {
