@@ -1,4 +1,6 @@
 
+@import "../../assets/css/styles.css";
+
 .products {
     display: grid;
     grid-template-columns: 16rem 1fr;
